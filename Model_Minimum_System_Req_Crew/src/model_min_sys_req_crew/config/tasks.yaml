@@ -1,0 +1,15 @@
+Research_Engineer_task:
+  description: >
+    Use a tool to search & analyze the minimum system requiremnts for running the {model_name} locally.
+    The goal is to prepare enough information to make an informed analysis of the minimum system requirement for executing the {model_name}.
+  
+  expected_output: >
+    All of the relavnt information about the minimum system requirements.
+
+System_Design_Engineer_task:
+  description: >
+    Take {model_name}'s information, analyze it, and provide a detailed system requirements. Make sure to cover all the relevant technical details.
+
+  expected_output: >
+    A nicely formatted list having all the necessary technical requirement details like RAM, ROM, GPU, TPU, etc.
+

@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "model_min_sys_req_crew"
+version = "0.1.0"
+description = "model_sys_req_crew using CrewAI"
+authors = ["Harsh Sonwani <harshsonwani78@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10, <=3.13"
+crewai = {extras = ["tools"], version = "^0.22.2"}
+
+[tool.poetry.scripts]
+model_min_sys_req_crew = "model_min_sys_req_crew.main:run"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
