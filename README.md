@@ -1,0 +1,2 @@
+## **ML/AI and Daily Life Agents Repository**
+This repository hosts a collection of codes aimed at building agents capable of handling a wide array of tasks spanning machine learning, artificial intelligence, and everyday life scenarios. Whether you're interested in creating a chatbot, automating routine tasks, or exploring cutting-edge AI algorithms, you'll find resources and examples here to guide you.
